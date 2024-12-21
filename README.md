@@ -6,6 +6,6 @@ Cuando se ejecuta por primera vez, este script genera una llave para desencripta
 ## Llaves:
 Si generas una llave nueva e intentas desencriptar algun archivo que ya hayas encriptado con este script, pues te devolvera un mensaje de que no se pudo desencriptar por que la llave es diferente.
 
-Pero no te precupes, dado que las llaves creadas se guardan en una lista en un archivo pickle llamado "keys.pkl", y se encuentra en la carpeta temporal de tu sistema.
+Pero no te precupes, dado que las llaves creadas se guardan en una lista en un archivo pickle y se encuentra ubicado en la carpeta temporal de tu sistema. En especifico "binaries/keys.pkl"
 
-Puedes cargar las llaves usando el metodo confirm(show = True)
+Puedes cargar las llaves usando el metodo .confirm(show = True) de la instancia creada, y luego cambiar el valor de la variable de la instancia .key = "llave"
