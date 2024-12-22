@@ -17,11 +17,11 @@ Puedes cargar las llaves usando el metodo .confirm(show = True) de la instancia 
 Para mas detalles, en el script hay un ejemplo de uso.
 
 ## Metodos:
-Para crear los binarios.
+Para crear los binarios:  
 .generate_bn()
 
-Parar cargar los binarios.
+Parar cargar los binarios:  
 .load_bn()
 
-Para cargar las llaves.
+Para cargar las llaves:  
 .confirm()
